@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 400px;
+    height: 400px;
+    
+
+    border: solid 5px rgba(167, 10, 120, 0.7);
+  
+
+    margin: 10% auto;
+    padding: 20px 20px;
+    outline: 5px solid darkslateblue;
+    
+    box-sizing: border-box;
+
+}
