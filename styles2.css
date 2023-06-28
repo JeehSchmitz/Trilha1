@@ -1,0 +1,132 @@
+/* 
+Em HTML é id = em CSS é #
+Em HTML é class = em CSS é .
+*/
+
+body {
+    background-color:rgb(216, 178, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* 
+Vou criar no HTML a class = . no CSS, que irá formatar os meus títulos. a h1#principal é única e deve ser 
+aplicada apenas ao título principal nesse caso. Para demais títulos, criarei a class que chamarei de título 
+e terá o ponto na frente:
+*/
+
+.titulo {
+  color: #743974;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+  h1#principal{
+    
+      text-align: center;
+      background-color: #743974;
+      color: #fff;
+      padding: 20px;
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  #paragrafo {
+    font-family: Segoe UI;
+    font-size: 20px;
+    color: #CD5C5C;
+    text-align: center;
+
+  }
+
+  
+  footer{
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #743974;
+    }
+    
+    nav ul li {
+      float: left;
+    }
+    
+    nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+      background-color: #490e38;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    footer {
+      padding: 20px;
+      background-color: #743974;
+      color: #fff;
+      text-align: center;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    nav img {
+      animation: rotate 5s linear infinite;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    
+    nav img {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    h1#principal {
+      margin: 0;
+    }
+
+    .map-container {
+      display: flex;
+      justify-content: center;
+    }
+    
